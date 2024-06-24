@@ -6,5 +6,5 @@ app.get("/", async (_, res) => {
   res.status(200).json({"msg":"Hello world!"});
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8090;
 app.listen(port, () => console.log(`Application is now ready, listening to: ${port} randomId: ${Math.random()}`));
