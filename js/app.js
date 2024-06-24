@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get("/", async (_, res) => {
-  console.log("[test] sample log for / route test");
+  console.log("You've hit the route!! / route test");
   res.status(200).json({"msg":"Hello world!"});
 });
 
